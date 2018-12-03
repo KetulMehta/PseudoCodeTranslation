@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<start>
+   <var>
+      <name>a</name>
+      <type>int</type>
+   </var>
+   <var>
+      <name>b</name>
+      <type>int</type>
+   </var>
+   <var>
+      <name>c</name>
+      <type>int</type>
+   </var>
+   <assign>
+      <input1>
+         <con>2</con>
+      </input1>
+      <output>
+         <operand>a</operand>
+      </output>
+   </assign>
+   <assign>
+      <input1>
+         <con>1</con>
+      </input1>
+      <output>
+         <operand>b</operand>
+      </output>
+   </assign>
+   <assign>
+      <input1>
+         <operand>a</operand>
+      </input1>
+      <input2>
+         <operand>b</operand>
+      </input2>
+      <output>
+         <operand>c</operand>
+      </output>
+      <op>1</op>
+   </assign>
+   <vwrite>c</vwrite>
+</start>

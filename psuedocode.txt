@@ -1,0 +1,5 @@
+let a b c be integer
+assign 2 to a
+assign 1 to b
+assign addition of a b to c
+print c
